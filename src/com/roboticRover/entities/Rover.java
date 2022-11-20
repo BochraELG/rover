@@ -5,7 +5,6 @@ import com.roboticRover.exception.InvalidMoveException;
 
 public class Rover {
 
-	private static final Exception RuntimeException = null;
 	private Position position;
 	private State state;
 	private Grid grid;
