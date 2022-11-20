@@ -1,20 +1,13 @@
 package com.roboticRover; 
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 import com.roboticRover.entities.Grid;
 import com.roboticRover.entities.Rover;
-import com.roboticRover.exception.InvalidMoveException;
 import com.roboticRover.implem.InputLoader;
 import com.roboticRover.implem.command.CommandExecutor;
 
